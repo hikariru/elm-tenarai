@@ -18,5 +18,5 @@ bottlesOf contents amount =
     Debug.toString amount ++ " bottles of " ++ contents ++ " on the wall."
 
 bottlesOfJuice: Int -> String
-bottlesOfJuice  =
+bottlesOfJuice =
     bottlesOf "Juice"
