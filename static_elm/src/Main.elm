@@ -3,7 +3,7 @@ module Main exposing (main)
 import Html exposing (text)
 
 main =
-        text (bottlesOfJuice 99)
+    text (bottlesOfJuice 99)
 
 greeting: String
 greeting =
