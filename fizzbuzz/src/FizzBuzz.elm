@@ -13,7 +13,7 @@ main =
 fizzbuzz : Int -> Html msg
 fizzbuzz num =
     let
-        mod =
+        mod = 
             (modBy 3 num, modBy 5 num)
         str = case mod of
             (0, 0) ->
