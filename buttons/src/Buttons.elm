@@ -52,7 +52,7 @@ update msg model =
       model - 1
 
     Reset ->
-      init
+      0
 
 
 
