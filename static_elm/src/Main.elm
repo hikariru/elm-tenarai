@@ -15,7 +15,7 @@ sayHello name =
 
 bottlesOf: String -> (Int -> String)
 bottlesOf contents amount =
-    Debug.toString amount ++ " bottles of " ++ contents ++ " on the wall."
+    String.fromInt amount ++ " bottles of " ++ contents ++ " on the wall."
 
 bottlesOfJuice: Int -> String
 bottlesOfJuice =
